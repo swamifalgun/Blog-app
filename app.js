@@ -20,7 +20,8 @@ var authRoutes = require('./routes/index');
 
 
 
-mongoose.connect('mongodb://localhost/blog');
+//mongoose.connect('mongodb://localhost/blog');
+mongoose.connect('mongodb://swamifalgun:n3v3rsayno@ds117189.mlab.com:17189/swamifalgundatabase');
 
 
 app.use(bodyParser.urlencoded({
