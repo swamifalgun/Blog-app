@@ -1,0 +1,13 @@
+body {
+    background: #ccc;
+    color: #262525;
+}
+
+.black {
+    color: #262525;
+    background-color: #ccc;
+}
+
+.delete-form {
+    display: inline;
+}
